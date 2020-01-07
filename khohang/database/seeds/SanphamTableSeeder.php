@@ -43,7 +43,7 @@ class SanphamTableSeeder extends Seeder
                 'sp_ma'                   => $i,
                 'sp_ten'                  => $types[$i-1],
                 'sp_gia'                  => $types2[$i-1],
-                'sp_hinh'                 => "hoa-$i.jpg",
+                'sp_hinh'                 => "hinh-$i.jpg",
                 'sp_thongTin'             => "sp_thongTin $i",
                 'sp_danhGia'              => "sp_danhGia $i",
                 'sp_taoMoi'               => $today->format('Y-m-d H:i:s'),
